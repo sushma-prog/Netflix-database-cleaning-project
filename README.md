@@ -1,4 +1,4 @@
-# 🎬 Netflix Dataset Cleaning – Mini Project
+# 🎬 Netflix Dataset Cleaning & Visualization – Mini Project
 
 ## 🔍 Objective
 Clean and preprocess Netflix dataset to make it ready for analysis.
@@ -10,6 +10,14 @@ Clean and preprocess Netflix dataset to make it ready for analysis.
 - Standardized text columns (`Type`, `Country`).
 - Created a new column `main_country`.
 
+## ✅ visualization steps
+- Bar Plot – Count of Shows by Type.
+- Histogram – Distribution of Duration.
+- Pie Chart – Content by Country (Top 5).
+- Box Plot – Duration by Category.
+- Line Plot – Number of Releases Over Time.
+- Heatmap of Missing Values.
+
 ## 🗃️ Files Included
 - `netflix_cleaned.csv`: Cleaned dataset.
 - `README.md`: Project summary.
@@ -18,6 +26,5 @@ Clean and preprocess Netflix dataset to make it ready for analysis.
 - Python
 - Pandas
 - Jupyter Notebook
-
-## 🌟 Project Status
-✅ Completed and ready for EDA
+- Matplotlib
+- Seaborn
